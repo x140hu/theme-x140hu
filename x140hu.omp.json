@@ -15,7 +15,7 @@
                 {
                     "background": "p:blue",
                     "foreground": "p:wight",
-                    "powerline_symbol": "😺",
+                    "powerline_symbol": "\ue0b4",
                     "leading_diamond": "\ue0b6",
                     "style": "diamond",
                     "template": "{{.Icon}} ",
@@ -34,7 +34,7 @@
                     "foreground": "p:text",
                     "properties": {
                         "folder_icon": "..\ue5fe..",
-                        "home_icon": "🏡",
+                        "home_icon": "~",
                         "style": "agnoster_short"
                     },
                     "powerline_symbol": "\ue0b4",
