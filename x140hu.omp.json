@@ -13,23 +13,12 @@
             "alignment": "left",
             "segments": [
                 {
-                    "background": "#ff79c6",
-                    "foreground": "#f8f8f2",
-                    "properties": {
-                        "time_format": "15:04"
-                    },
-                    "style": "powerline",
-                    "template": " ⌚ {{ .CurrentDate | date .Format }} ",
-                    "powerline_symbol": "\ue0b4",
-                    "leading_diamond": "\ue0b6",
-                    "type": "time"
-                },
-                {
                     "background": "p:blue",
                     "foreground": "p:wight",
                     "powerline_symbol": "\ue0b4",
+                    "leading_diamond": "\ue0b6",
                     "style": "diamond",
-                    "template": "{{.Icon}} ",
+                    "template": "🏡 ",
                     "type": "os"
                 },
                 {
@@ -45,7 +34,7 @@
                     "foreground": "p:text",
                     "properties": {
                         "folder_icon": "..\ue5fe..",
-                        "home_icon": "~",
+                        "home_icon": "😺~",
                         "style": "agnoster_short"
                     },
                     "powerline_symbol": "\ue0b4",
