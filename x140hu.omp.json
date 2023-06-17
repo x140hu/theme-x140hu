@@ -96,7 +96,7 @@
                         "prefix": " \uf5ef ",
                         "postfix": " "
                     },
-                    "template": "⌚ {{ .CurrentDate | date .Format }} "
+                    "template": " ⌚ {{ .CurrentDate | date .Format }} "
                 }
             ]
         },
