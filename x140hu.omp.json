@@ -18,7 +18,7 @@
                     "powerline_symbol": "\ue0b4",
                     "leading_diamond": "\ue0b6",
                     "style": "diamond",
-                    "template": "🌈 ",
+                    "template": "🌈",
                     "type": "os"
                 },
                 {
@@ -33,7 +33,7 @@
                     "background": "p:pink",
                     "foreground": "p:text",
                     "properties": {
-                        "folder_icon": "🏡 ",
+                        "folder_icon": "🏡",
                         "home_icon": "😺~",
                         "style": "agnoster_short"
                     },
