@@ -18,7 +18,7 @@
                     "powerline_symbol": "\ue0b4",
                     "leading_diamond": "\ue0b6",
                     "style": "diamond",
-                    "template": "{{ .HEAD }}  ",
+                    "template": "🌈 ",
                     "type": "os"
                 },
                 {
@@ -59,7 +59,7 @@
                         "tag_icon": "\uf412 "
                     },
                     "powerline_symbol": "\ue0b4",
-                    "template": "🌈 ",
+                    "template": " {{ .HEAD }}",
                     "type": "git"
                 }
             ],
