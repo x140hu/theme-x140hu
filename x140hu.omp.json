@@ -59,7 +59,7 @@
                         "tag_icon": "\uf412 "
                     },
                     "powerline_symbol": "\ue0b4",
-                    "template": " {{ .HEAD }}",
+                    "template": "🌈 ",
                     "type": "git"
                 }
             ],
@@ -96,7 +96,7 @@
                         "prefix": " \uf5ef ",
                         "postfix": " "
                     },
-                    "template": " ⌚ {{ .CurrentDate | date .Format }} "
+                    "template": "⌚{{ .CurrentDate | date .Format }} "
                 }
             ]
         },
@@ -112,7 +112,7 @@
                     "properties": {
                         "prefix": "",
                         "postfix": "",
-                        "text": "💬"
+                        "text": "╰─"
                     }
                 },
                 {
