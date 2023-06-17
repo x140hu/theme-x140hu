@@ -18,7 +18,7 @@
                     "powerline_symbol": "\ue0b4",
                     "leading_diamond": "\ue0b6",
                     "style": "diamond",
-                    "template": "{{.Icon}} ",
+                    "template": "{{ .HEAD }}  ",
                     "type": "os"
                 },
                 {
@@ -96,7 +96,7 @@
                         "prefix": " \uf5ef ",
                         "postfix": " "
                     },
-                    "template": "⌚"
+                    "template": "⌚ {{ .CurrentDate | date .Format }} "
                 }
             ]
         },
