@@ -74,8 +74,8 @@
                     "style": "diamond",
                     "leading_diamond": " \uE0B6",
                     "trailing_diamond": "\uE0B4",
-                    "foreground": "#3C873A",
-                    "background": "#303030",
+                    "foreground": "#21c7c7",
+                    "background": "#ffffff",
                     "properties": {
                         "prefix": "\uE718 ",
                         "postfix": "",
@@ -95,6 +95,34 @@
                     "properties": {
                         "prefix": " ⌚ ",
                         "postfix": " "
+                    }
+                }
+            ]
+        },
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "newline": true,
+            "segments": [
+                {
+                    "type": "text",
+                    "style": "plain",
+                    "foreground": "#F5BDE6",
+                    "properties": {
+                        "prefix": "",
+                        "postfix": "",
+                        "text": "╰─"
+                    }
+                },
+                {
+                    "type": "exit",
+                    "style": "plain",
+                    "foreground": "#e0f8ff",
+                    "properties": {
+                        "prefix": "\u276F",
+                        "display_exit_code": false,
+                        "always_enabled": true,
+                        "error_color": "#ef5350"
                     }
                 }
             ]
