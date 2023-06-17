@@ -18,7 +18,7 @@
                     "powerline_symbol": "\ue0b4",
                     "leading_diamond": "\ue0b6",
                     "style": "diamond",
-                    "template": "🏡 ",
+                    "template": "{{.Icon}} ",
                     "type": "os"
                 },
                 {
@@ -33,7 +33,7 @@
                     "background": "p:pink",
                     "foreground": "p:text",
                     "properties": {
-                        "folder_icon": "..\ue5fe..",
+                        "folder_icon": "🏡 ",
                         "home_icon": "😺~",
                         "style": "agnoster_short"
                     },
@@ -90,12 +90,13 @@
                     "invert_powerline": true,
                     "leading_diamond": " \uE0B6",
                     "trailing_diamond": "\uE0B4",
-                    "background": "#F5BDE6",
+                    "background": "#8AADF4",
                     "foreground": "#ffffff",
                     "properties": {
-                        "prefix": " ⌚ ",
+                        "prefix": " \uf5ef ",
                         "postfix": " "
-                    }
+                    },
+                    "template": "⌚"
                 }
             ]
         },
@@ -111,7 +112,7 @@
                     "properties": {
                         "prefix": "",
                         "postfix": "",
-                        "text": "╰─"
+                        "text": "💬"
                     }
                 },
                 {
