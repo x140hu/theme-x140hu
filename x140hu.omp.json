@@ -66,26 +66,38 @@
             "type": "prompt"
         },
         {
+            "type": "prompt",
             "alignment": "right",
             "segments": [
                 {
-                    "background": "#17D7A0",
-                    "foreground": "#F5BDE6",
-                    "leading_diamond": "\ue0b2",
-                    "properties": {
-                        "branch_icon": "\ue725 ",
-                        "fetch_stash_count": true,
-                        "fetch_status": true,
-                        "fetch_upstream_icon": true,
-                        "fetch_worktree_count": true
-                    },
+                    "type": "node",
                     "style": "diamond",
-                    "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
-                    "trailing_diamond": "\ue0b0",
-                    "type": "git"
+                    "leading_diamond": " \uE0B6",
+                    "trailing_diamond": "\uE0B4",
+                    "foreground": "#3C873A",
+                    "background": "#303030",
+                    "properties": {
+                        "prefix": "\uE718 ",
+                        "postfix": "",
+                        "display_package_manager": true,
+                        "yarn_icon": " <#348cba></>",
+                        "npm_icon": " <#cc3a3a></> "
+                    }
+                },
+                {
+                    "type": "time",
+                    "style": "diamond",
+                    "invert_powerline": true,
+                    "leading_diamond": " \uE0B6",
+                    "trailing_diamond": "\uE0B4",
+                    "background": "#F5BDE6",
+                    "foreground": "#ffffff",
+                    "properties": {
+                        "prefix": " ⌚ ",
+                        "postfix": " "
+                    }
                 }
-            ],
-            "type": "prompt"
+            ]
         }
     ],
     "final_space": true,
