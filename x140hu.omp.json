@@ -16,7 +16,7 @@
                     "background": "p:blue",
                     "foreground": "p:wight",
                     "powerline_symbol": "\ue0b4",
-                    "leading_diamond": "\ue0b6",
+                    "leading_diamond": "╭─",
                     "style": "diamond",
                     "template": "🌈",
                     "type": "os"
