@@ -19,7 +19,7 @@
                     "leading_diamond": "╭─",
                     "style": "diamond",
                     "template": "",
-                    "type": "os"
+                    "type": "shell"
                 },
                 {
                     "background": "p:blue",
