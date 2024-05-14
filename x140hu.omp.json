@@ -26,7 +26,7 @@
                     "foreground": "p:text",
                     "powerline_symbol": "\ue0b4",
                     "style": "diamond",
-                    "template": "⭐ {{ .UserName }}@{{ .HostName }}",
+                    "template": "{{ .UserName }}@{{ .HostName }}",
                     "type": "session"
                 },
                 {
