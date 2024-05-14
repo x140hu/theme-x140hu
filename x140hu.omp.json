@@ -19,7 +19,7 @@
                     "leading_diamond": "╭─",
                     "style": "diamond",
                     "template": "",
-                    "type": "shell"
+                    "type": "shell",
                     "properties": {
                         "root_icon": "\uf292",
                         "prefix": "<parentBackground>\uE0B0</> "
